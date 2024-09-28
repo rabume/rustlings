@@ -6,3 +6,9 @@ whe need to use the following command:
 ```bash
 cargo run --bin <exercise>
 ```
+
+To run the tests for an exercise we need to run the following command:
+
+```bash
+cargo test --bin <exercise>
+```
