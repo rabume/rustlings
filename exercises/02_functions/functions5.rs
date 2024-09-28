@@ -1,9 +1,13 @@
 // TODO: Fix the function body without changing the signature.
 fn square(num: i32) -> i32 {
-    num * num;
+    let calc = num * num;
+    let result: i32 = calc;
+    
+    return result
 }
 
 fn main() {
-    let answer = square(3);
-    println!("The square of 3 is {answer}");
+    let input = 9;
+    let answer = square(input);
+    println!("The square of {input} is {answer}");
 }
